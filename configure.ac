@@ -24,6 +24,7 @@ dnl Process this file with autoconf to produce a configure script.
 AC_INIT([ID3 Tag], [0.15.1b], [support@underbit.com], [libid3tag])
 AC_PREREQ(2.53)
 
+AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_SRCDIR([id3tag.h])
 
 AM_INIT_AUTOMAKE
