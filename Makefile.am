@@ -92,7 +92,7 @@ EXTRA_libid3tag_la_SOURCES =  \
 			frametype.gperf compat.gperf genre.dat.in  \
 			debug.c debug.h
 
-libid3tag_la_LDFLAGS =	-version-info $(version_info)
+libid3tag_la_LDFLAGS =	-version-info $(version_info) -no-undefined
 
 BUILT_SOURCES =		frametype.c compat.c genre.dat
 
